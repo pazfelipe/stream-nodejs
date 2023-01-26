@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node Stream</title>
+  </head>
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-gap: 20px;
+      align-items: stretch;
+    }
+
+    .grid > article {
+      border: 1px solid #d1d1d1;
+    }
+
+    .grid .text {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  </style>
+  <body>
+    <main>
+      <section>
+        <div>
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+        </div>
+      </section>
+      <div class="container">
+        <section class="grid" id="cards">
+          
+        </section>
+      </div>
+    </main>
+
+    <script src="./assets/js/index.js" type="module"></script>
+  </body>
+</html>
