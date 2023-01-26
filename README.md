@@ -1,7 +1,7 @@
 # NODE STREAMS
 
 This is a simple project to ilustrate how to work with large files using the most recent NodeJs Stream API.
-Althought the project is simple, it is a good starting point to understand how to work with streams.
+Although the project is simple, it is a good starting point to understand how to work with streams.
 
 I used just two libs here:
   For the server, I used csvforjson, which is a simple lib to convert csv files to json.
